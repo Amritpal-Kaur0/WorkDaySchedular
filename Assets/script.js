@@ -47,6 +47,7 @@ updateTime();
 // updating every second 
 setInterval(updateTime,1000);
 
+// set time on screen 
 let timeblock=$('.time-block')
 const currentHour = dayjs().format('H');
 // toggleclass and set it according to and current hour 
