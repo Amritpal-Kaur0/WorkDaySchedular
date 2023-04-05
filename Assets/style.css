@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+}
+body {
+  font-size: 16px;
+  background: linear-gradient(#d1dde3, #609bc5);
+}
+.snowflake {
+  position: absolute;
+  background-image: url("./Scandinavian_Snowflake.svg.png");
+  background-size: cover;
+  border-radius: 50px;
+  animation: fall 2s linear infinite;
+}
+@keyframes fall {
+  0% {
+    transform: translate(50%, 50%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(50%, 1000%);
+    opacity: 0;
+  }
+}
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+.description {
+  white-space: pre-wrap;
+}
+.time-block {
+  border-radius: 15px;
+}
+.row {
+  border-top: 1px solid rgb(252, 249, 249);
+}
+.hour {
+  background-color: #fbfbf9f5;
+  color: #000000;
+  /* border-top: 1px dashed #000000; */
+  font-weight: bolder;
+  margin: auto;
+}
+.past {
+  background-color: #de5d5d;
+  color: rgb(3, 3, 3);
+}
+.present {
+  background-color: #e1aaaa;
+  color: rgb(5, 5, 5);
+}
+.future {
+  background-color: #6ddc6d;
+  color: rgb(1, 1, 1);
+}
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #0e414d;
+  color: white;
+}
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
