@@ -32,10 +32,12 @@ THEN the saved events persist
 
 ## The URL of the deployed application:-
 
-## The URL of the GitHub repository:-
+## The URL of the GitHub repository
+:-https://github.com/Amritpal-Kaur0/WorkDaySchedular
 
 ## Screenshot of Deployed Applicaion :-
 
+![2023-04-05 (2)](https://user-images.githubusercontent.com/128442182/230059202-052e5ef2-2bfe-4e8c-89f7-e60acc95f6da.png)
 
 
 ## Support
