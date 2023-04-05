@@ -31,6 +31,7 @@ THEN the saved events persist
 
 
 ## The URL of the deployed application:-
+https://amritpal-kaur0.github.io/WorkDaySchedular/
 
 ## The URL of the GitHub repository
 :-https://github.com/Amritpal-Kaur0/WorkDaySchedular
